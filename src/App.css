@@ -37,6 +37,21 @@ background: skyblue;
     border: 0px;
     border-radius: 3px;
 }
+.cartItemCount{
+        float: right;
+    background: cornflowerblue;
+    /* padding: 6px; */
+    border-radius: 42px;
+    color: aliceblue;
+    font-weight: bold;
+    position: relative;
+    right: 20px;
+    top: -16px;
+    padding-right: 13px;
+    padding-left: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .productWrapper{
     border: 1px solid gainsboro;
     width: 34%;
