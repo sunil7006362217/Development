@@ -6,13 +6,12 @@ function Home(props) {
     return (
         <div>
             <h1>Home</h1>
-            <span className="cartItemCount">{props.cartData.length}</span>
-            <div className="cartImageWrapper">
-                <img src={cart} className="cartImage"></img>
-            </div>
+
             <div className="productWrapper">
                 <img src={mobile} className="productImage" /><br />
                 <button className="cartButton" onClick={() => props.addToCartHandler({ name: 'samsung', price: 20000 })}>Add to Cart</button>
+
+                <button className="removeCartItemButton" onClick={() => props.removeToCartHandler()}>Remove to Cart</button>
                 <br />
                 <br />
 

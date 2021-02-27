@@ -37,6 +37,23 @@ background: skyblue;
     border: 0px;
     border-radius: 3px;
 }
+.removeCartItemButton{
+
+    background: rebeccapurple;
+    color: white;
+    /* padding: 10px; */
+    /* padding-left: 9px; */
+    /* outline: 5px; */
+    /* outline-color: white; */
+    /* outline-offset: 10px; */
+    /* outline-color: green; */
+    /* outline-width: 10px; */
+    position: relative;
+       padding: 10px;
+    border: 0px;
+    border-radius: 2px;
+    right: -7px;
+}
 .cartItemCount{
         float: right;
     background: cornflowerblue;
